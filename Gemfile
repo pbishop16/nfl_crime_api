@@ -13,8 +13,17 @@ gem 'pg', '~> 0.18'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 
+# httparty
+gem 'httparty'
+
 # Active model serializers for JSON responses
 gem 'active_model_serializers', '~> 0.10.0'
+
+# gem 'sidekiq'
+
+gem 'rest-client'
+
+gem 'rack-cors', :require => 'rack/cors'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
